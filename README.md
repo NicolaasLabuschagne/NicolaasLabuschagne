@@ -1,7 +1,7 @@
 Hi, I’m @NicolaasLabuschagne
 
 # 💫 About Me:
-Im currently trying to create the next best thing don't know what yet but im working on it.<br>I dont mind to collaborate on anything. I'll always try to help.<br>Not currently looking for help but let me know if your intrested or has a idea.<br>Im always learning and ill never stop learning.<br>Ask me About anything i'll always try to answer questions to the best of my capabilities.
+Im currently trying to create the next best thing don't know what that is yet but im working on it.<br>I dont mind to collaborate on anything. I'll always try to help.<br>Not currently looking for help but let me know if your intrested or has a idea.<br>Im always learning and ill never stop learning.<br>Ask me About anything i'll always try to answer questions to the best of my capabilities.
 
 
 ## 🌐 Socials:
