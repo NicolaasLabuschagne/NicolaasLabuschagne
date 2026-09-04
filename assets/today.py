@@ -55,7 +55,11 @@ def repos_and_stars():
         request = simple_request("repos_and_stars", query, {"login": USER_NAME, "cursor": cursor})
         repositories = request.json()["data"]["user"]["repositories"]
         total_repos = repositories["totalCount"]
-        total_stars += sum(edge["node"]["stargazers"]["totalCount"] for edge in repositories["edges"])
+        total_stars += sum(
+            edge["node"]["stargazers"]["totalCount"]
+            for edge in repositories["edges"]
+            if edge["node"] is not None
+        )
         if not repositories["pageInfo"]["hasNextPage"]:
             break
         cursor = repositories["pageInfo"]["endCursor"]
