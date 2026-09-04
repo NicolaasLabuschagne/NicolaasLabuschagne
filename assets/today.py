@@ -53,7 +53,15 @@ def repos_and_stars():
     cursor = None
     while True:
         request = simple_request("repos_and_stars", query, {"login": USER_NAME, "cursor": cursor})
-        repositories = request.json()["data"]["user"]["repositories"]
+        data = request.json()
+
+        if "errors" in data:
+            raise Exception("GraphQL error:", data["errors"])
+
+        repositories = data.get("data", {}).get("user", {}).get("repositories")
+        if repositories is None:
+            raise Exception("Invalid response structure: repositories data is missing")
+
         total_repos = repositories["totalCount"]
         total_stars += sum(
             edge["node"]["stargazers"]["totalCount"]
