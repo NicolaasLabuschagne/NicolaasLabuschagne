@@ -1,24 +1,39 @@
-Hi, I’m @NicolaasLabuschagne
+<div align="center">
 
-# 💫 About Me:
-Im currently trying to create the next best thing don't know what that is yet but im working on it.<br>I dont mind to collaborate on anything. I'll always try to help.<br>Not currently looking for help but let me know if your intrested or has a idea.<br>Im always learning and ill never stop learning.<br>Ask me About anything i'll always try to answer questions to the best of my capabilities.
+<a href="https://nicolaaslabuschagne.github.io/Nicolaas_Labuschagne/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NicolaasLabuschagne/NicolaasLabuschagne/main/assets/dark_mode.svg">
+    <img alt="Nicolaas Labuschagne — Systems Architect &amp; Full-Stack Developer" src="https://raw.githubusercontent.com/NicolaasLabuschagne/NicolaasLabuschagne/main/assets/light_mode.svg">
+  </picture>
+</a>
 
+<br><br>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicolaas-labuschagne-919739286/)
+[![Portfolio](https://img.shields.io/badge/View_Portfolio-c7a63a?style=for-the-badge&logoColor=0b1712)](https://nicolaaslabuschagne.github.io/Nicolaas_Labuschagne/)
+[![Job Logger](https://img.shields.io/badge/Job_Logger-142a20?style=for-the-badge&logo=supabase&logoColor=8fe3a6&labelColor=0b1712)](https://nicolaaslabuschagne.github.io/Job-Logger/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-142a20?style=for-the-badge&logo=linkedin&logoColor=8fe3a6&labelColor=0b1712)](https://www.linkedin.com/in/nicolaas-labuschagne-919739286/)
+[![Email](https://img.shields.io/badge/Email-142a20?style=for-the-badge&logo=microsoftoutlook&logoColor=8fe3a6&labelColor=0b1712)](mailto:NJ.Labuschagne@outlook.com)
 
-# 💻 Tech Stack:
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Three js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=NicolaasLabuschagne&theme=radical)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=NicolaasLabuschagne&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=NicolaasLabuschagne&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+</div>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+### 💻 Tech Stack
 
----
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=cs,dotnet,py,ts,js,html,css,nodejs,mysql,supabase,sklearn,git,github,vscode&theme=dark&perline=7" alt="skill icons" />
+
+<br><br>
+
+![SQL Server](https://img.shields.io/badge/SQL_Server-142a20?style=for-the-badge&logo=microsoftsqlserver&logoColor=8fe3a6&labelColor=0b1712) ![Pandas](https://img.shields.io/badge/Pandas-142a20?style=for-the-badge&logo=pandas&logoColor=8fe3a6&labelColor=0b1712)
+
+</div>
+
+<div align="center">
+
 [![](https://visitcount.itsvg.in/api?id=NicolaasLabuschagne&label=Profile%20Views&color=8&icon=0&pretty=true)](https://visitcount.itsvg.in)
 
+</div>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<picture>
+  <img alt="footer" src="https://capsule-render.vercel.app/api?type=waving&color=0:142a20,100:0b1712&height=100&section=footer&animation=fadeIn" />
+</picture>
