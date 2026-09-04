@@ -1,5 +1,8 @@
 name: Update profile card
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 4 * * *"
