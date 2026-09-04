@@ -38,39 +38,34 @@ def uptime_string():
 
 
 def repos_and_stars():
-    query = """
-    query ($login: String!, $cursor: String) {
-        user(login: $login) {
-            repositories(first: 100, after: $cursor, ownerAffiliations: [OWNER], isFork: false) {
-                totalCount
-                edges { node { stargazers { totalCount } } }
-                pageInfo { endCursor hasNextPage }
-            }
-        }
-    }"""
+    """
+    Uses the REST API (not GraphQL) on purpose: each repo comes back as its
+    own independent object, so a repo the token can't fully see is just
+    absent from the list instead of nulling out the whole response the way
+    GraphQL's non-nullable field propagation does.
+    """
     total_repos = 0
     total_stars = 0
-    cursor = None
+    page = 1
     while True:
-        request = simple_request("repos_and_stars", query, {"login": USER_NAME, "cursor": cursor})
-        data = request.json()
-
-        if "errors" in data:
-            raise Exception("GraphQL error:", data["errors"])
-
-        repositories = data.get("data", {}).get("user", {}).get("repositories")
-        if repositories is None:
-            raise Exception("Invalid response structure: repositories data is missing")
-
-        total_repos = repositories["totalCount"]
-        total_stars += sum(
-            edge["node"]["stargazers"]["totalCount"]
-            for edge in repositories["edges"]
-            if edge["node"] is not None
+        response = requests.get(
+            f"https://api.github.com/users/{USER_NAME}/repos",
+            headers=HEADERS,
+            params={"type": "owner", "per_page": 100, "page": page},
         )
-        if not repositories["pageInfo"]["hasNextPage"]:
+        if response.status_code != 200:
+            raise Exception("repos_and_stars failed with", response.status_code, response.text)
+        repos = response.json()
+        if not repos:
             break
-        cursor = repositories["pageInfo"]["endCursor"]
+        for repo in repos:
+            if repo.get("fork"):
+                continue
+            total_repos += 1
+            total_stars += repo.get("stargazers_count", 0)
+        if len(repos) < 100:
+            break
+        page += 1
     return total_repos, total_stars
 
 
