@@ -58,7 +58,7 @@
 
 <g font-size="14">
   <text x="350" y="104"><tspan class="key">OS</tspan><tspan class="dim">           </tspan><tspan class="value">Windows 11 · GitHub Actions</tspan></text>
-  <text x="350" y="126"><tspan class="key">Uptime</tspan><tspan class="dim">       </tspan><tspan class="value" id="uptime_data">4 years, 8 months, 3 days</tspan></text>
+  <text x="350" y="126"><tspan class="key">Uptime</tspan><tspan class="dim">       </tspan><tspan class="value" id="uptime_data">4 years, 8 months, 4 days</tspan></text>
   <text x="350" y="148"><tspan class="key">Role</tspan><tspan class="dim">         </tspan><tspan class="value">Freelance Systems Architect</tspan></text>
   <text x="350" y="170"><tspan class="key">Languages</tspan><tspan class="dim">    </tspan><tspan class="value">C#, Python, TypeScript, JavaScript</tspan></text>
   <text x="350" y="192"><tspan class="key">Stack</tspan><tspan class="dim">        </tspan><tspan class="value">.NET · Node.js · MySQL · SQL Server · Supabase</tspan></text>
