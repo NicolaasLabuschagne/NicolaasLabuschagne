@@ -58,7 +58,7 @@
 
 <g font-size="14">
   <text x="350" y="104"><tspan class="key">OS</tspan><tspan class="dim">           </tspan><tspan class="value">Windows 11 · GitHub Actions</tspan></text>
-  <text x="350" y="126"><tspan class="key">Uptime</tspan><tspan class="dim">       </tspan><tspan class="value" id="uptime_data">4 years, 8 months, 8 days</tspan></text>
+  <text x="350" y="126"><tspan class="key">Uptime</tspan><tspan class="dim">       </tspan><tspan class="value" id="uptime_data">4 years, 8 months, 9 days</tspan></text>
   <text x="350" y="148"><tspan class="key">Role</tspan><tspan class="dim">         </tspan><tspan class="value">Freelance Systems Architect</tspan></text>
   <text x="350" y="170"><tspan class="key">Languages</tspan><tspan class="dim">    </tspan><tspan class="value">C#, Python, TypeScript, JavaScript</tspan></text>
   <text x="350" y="192"><tspan class="key">Stack</tspan><tspan class="dim">        </tspan><tspan class="value">.NET · Node.js · MySQL · SQL Server · Supabase</tspan></text>
@@ -72,6 +72,6 @@
 
   <text x="350" y="388" class="section">- GitHub Stats -------------------------------------------------------</text>
   <text x="350" y="410"><tspan class="key">Repos</tspan><tspan class="dim">        </tspan><tspan class="value" id="repo_data">17</tspan><tspan class="dim">   </tspan><tspan class="key">Stars</tspan><tspan class="dim">  </tspan><tspan class="value" id="star_data">4</tspan></text>
-  <text x="350" y="432"><tspan class="key">Followers</tspan><tspan class="dim">    </tspan><tspan class="value" id="follower_data">1</tspan><tspan class="dim">   </tspan><tspan class="key">Contributions (1y)</tspan><tspan class="dim">  </tspan><tspan class="value" id="contrib_data">362</tspan></text>
+  <text x="350" y="432"><tspan class="key">Followers</tspan><tspan class="dim">    </tspan><tspan class="value" id="follower_data">1</tspan><tspan class="dim">   </tspan><tspan class="key">Contributions (1y)</tspan><tspan class="dim">  </tspan><tspan class="value" id="contrib_data">359</tspan></text>
 </g>
 </svg>
